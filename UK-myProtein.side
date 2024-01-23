@@ -1,0 +1,2197 @@
+{
+  "id": "60698dec-e945-43ed-83f1-292c5325d069",
+  "version": "2.0",
+  "name": "UK-myProtein",
+  "url": "https://www.myprotein.bg/",
+  "tests": [{
+    "id": "040ff274-18a1-4404-a9ce-412603f93e61",
+    "name": "Non-existing account test",
+    "commands": [{
+      "id": "4b05507c-1489-463f-8d6a-774acfc29111",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/login.jsp?returnTo=https%3A%2F%2Fwww.myprotein.bg%2FaccountHome.account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "319a98fb-0f39-4045-8f6c-ccaf72fb7e29",
+      "comment": "",
+      "command": "click",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-50dac9a8-e702-4d82-b4db-b7e848e22498", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-50dac9a8-e702-4d82-b4db-b7e848e22498", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-50dac9a8-e702-4d82-b4db-b7e848e22498']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "535ddbef-0c0e-4a3e-9bad-737b75d9072c",
+      "comment": "",
+      "command": "type",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-5f063e0b-76c9-4248-8d15-20269875800d", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-5f063e0b-76c9-4248-8d15-20269875800d", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-5f063e0b-76c9-4248-8d15-20269875800d']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "InvalidMail@abv.com"
+    }, {
+      "id": "4b0ab4a3-a50d-46bd-8a1e-6c0681c0e3b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-e1cd23f8-fb89-41c9-bac5-8738c21bf19b", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-e1cd23f8-fb89-41c9-bac5-8738c21bf19b", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-e1cd23f8-fb89-41c9-bac5-8738c21bf19b']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99e2e7c5-ca3e-4358-bd55-071dc78f3fe8",
+      "comment": "",
+      "command": "type",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-e62e8eef-c563-43b8-bf4d-132581014669", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-e62e8eef-c563-43b8-bf4d-132581014669", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-e62e8eef-c563-43b8-bf4d-132581014669']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "4486ca92-12ac-47a1-9fd7-d8236e7a585c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jgbSNz > .sc-bZkfAO > .sc-ezWOiH",
+      "targets": [
+        ["css=.sc-jgbSNz > .sc-bZkfAO > .sc-ezWOiH", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Влезнете в профила си')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5515a8c-f93b-487b-9081-2e534bcbb8a8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.dFQaZz",
+      "targets": [
+        ["css=.dFQaZz", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Въведеният адрес на електронна поща или парола са невалидни."
+    }]
+  }, {
+    "id": "8cfe679e-1998-4698-ad48-0392e7537ef6",
+    "name": "Asccending Order",
+    "commands": [{
+      "id": "0c30a1d0-f52f-4196-92e1-67fc09335251",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b2bcb3-a9d6-4171-89e8-71cd61ac2a53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5972103-9fcd-440a-a178-555a7b310326",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bff40ae-7de2-4d16-a40c-01dd5c339547",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0e0dd5-3222-4823-a2b0-398b2ab3c4e5",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Цена: От най- евтино към най- скъпо"
+    }, {
+      "id": "1a581073-b09d-44ae-8122-bb4be1585a0f",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//span[@class='athenaProductBlock_priceValue']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "89082645-852d-45fd-87f1-8bdf0e057ddc",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96781e91-6304-4d23-8ea3-d05871ca5a4a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "cdc7e6fa-cfff-4a3c-ad70-433fb16c24fd",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "188d907b-6be4-4943-8499-35cd43e7e48c",
+    "name": "Order By Alphabetical Order Descending",
+    "commands": [{
+      "id": "ac3ea0f6-4451-4aad-8c4d-f181ade207d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fdede64-8b96-4aa4-b99b-0d3cc701bd95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d71cab-38a2-4184-8c6c-5c14e9c4b31e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "898440b6-dc0e-4227-b710-7e44caab949f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1fdbcea-de02-4d45-ae68-b21f10599d2e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Азбучен ред"
+    }, {
+      "id": "a6175de5-e92e-4cde-b81a-45856bfff570",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "ecacf30f-72b2-4ffa-99ed-4e40bafe5876",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce7a49bf-22fa-4bb4-a21e-ae96adea09f3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "b4b41b65-e9ae-4b63-bc62-9858be3b7769",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "66c4e4dd-1c84-4079-9e27-ad35e3bf4d26",
+    "name": "Price Order lowtohigh",
+    "commands": [{
+      "id": "9d2008d8-69b5-4d14-8f4a-5e6f42b1444a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b411a4db-2887-44f6-8dae-17f920216c6e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9039fabd-1634-4d95-b963-3426c11434d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48fb9cd9-79d4-459f-a7b9-71ca327a0eae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55939895-fbde-4ceb-a72e-9e757bebe1d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49e831a-e2d7-45b7-9e3a-ed2e41ebaee9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Цена:От най- скъпо към най- евтино"
+    }, {
+      "id": "71ee6145-3f13-4c98-b506-25adfd5ae300",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//span[@class='athenaProductBlock_priceValue']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "e5d44044-b735-4cd7-a1e8-d59de5f51223",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef89646a-5eb9-42e9-8e2b-5b0e96302e0b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "8930de1c-6bac-4405-8c39-13dcc7b3f004",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "ab7bc881-af34-4b16-8f4e-8837787b981f",
+    "name": "Relevancy Order",
+    "commands": [{
+      "id": "2813cbcc-f3c9-400d-a677-ffc22341a68b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "245202b7-0838-4a7d-9263-c6784cf96aa6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d287a3c0-5d55-4e86-bff6-3e968f99d46d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b05e3b8-d18a-4998-b464-31bbd9937f14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "048704c4-de3a-427f-8645-15435f687d6f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Популярност"
+    }, {
+      "id": "651b5cfe-7207-4651-8545-f517bfd8aeab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87634b19-90bb-417c-969b-0dd9699aae67",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Релевантност"
+    }, {
+      "id": "f72e78e2-ea87-4bc1-b5d7-fb888b5a24a6",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "1381c88d-5e03-432b-8392-fbcb7edefa38",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7de5c8d9-11e7-4c1d-b97d-1d547448e3c1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "fa0225f1-a9c5-4c51-bcd7-d8b3db146454",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "de937e72-8262-4faf-aa97-8c9766b5fa53",
+    "name": "Popularity Order",
+    "commands": [{
+      "id": "2022f4cf-e410-463e-945c-fbd7743fdd9e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c304f5-9f70-4637-b3db-12dec1c55800",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90aa6f20-c1e2-4948-bff4-cd8a98c4e73c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a6b643-745a-47fd-8dc1-994c0b493cfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd09267-ea43-406d-be6a-1d62e100b0d1",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Популярност"
+    }, {
+      "id": "7c8e394f-f360-4199-8cca-4279ba64c0a0",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "75b9aef3-47e9-4404-86b3-216155c26452",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26591620-cdeb-4d5d-b90c-b308c5d2e428",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "31f0d622-fdef-4adf-9d6f-978dd0b87255",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "ec436ce1-3bcd-48cd-aea9-c8a0348723ba",
+    "name": "Discount Order",
+    "commands": [{
+      "id": "26fa229d-c353-49e0-bb85-47adefa2a087",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18aa8559-f029-40b0-a4dd-9694639b2c78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af86b7a9-db28-4732-bc32-d6f173db84b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brandLogos_link:nth-child(2) > .brandLogos_image",
+      "targets": [
+        ["css=.brandLogos_link:nth-child(2) > .brandLogos_image", "css:finder"],
+        ["xpath=//img[@alt='mens gym wear']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30824d04-4cb5-41f5-a9dd-061e0ec03d01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56c616dd-65de-48cc-8c2a-6154dee903d0",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Percentage Discount"
+    }, {
+      "id": "57b54f0a-ab12-4562-8d1b-66f744e40c9b",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "ea821062-9767-472b-9ae1-bfe4e13a5d50",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab5ea54e-4764-4737-89d6-176512544626",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "fb14bdf3-5fff-4b5b-a82d-24f1d07ac577",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "fe13c8d4-744b-48cd-b1ea-a29f7d106355",
+    "name": "Newest Order",
+    "commands": [{
+      "id": "0de4543e-bf05-403d-998e-8928deb18f94",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "237ef2a1-f0d7-47de-9bfc-edf1c1749f3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Облекло и Аксесоари", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Облекло и Аксесоари')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clothing.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Облекло и Аксесоари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6968231b-39fb-4519-9349-26826c6fa601",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSort_select",
+      "targets": [
+        ["css=.responsiveSort_select", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1060abb-94a5-4819-a385-5dc9ac0efe3f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.responsiveSort_select",
+      "targets": [],
+      "value": "label=Нaй-новите продукти"
+    }, {
+      "id": "660b78cf-46a6-4236-be95-43810b4e854f",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "b2b391db-97e6-455a-9c68-170d2b89ffe6",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dc14534-cf33-4585-901c-1f60ea71daf4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "8e1e9fce-7083-4e0c-ab61-931b7d2f065f",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "d525c29c-d56a-49ae-bd9b-6be57135cf67",
+    "name": "ValidSearch",
+    "commands": [{
+      "id": "0d4b1bde-eca7-44af-8caa-37a9a19725be",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6b44255-24b7-433a-8920-cd3525686f4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "836x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "993b598e-31d0-4aa0-b4bf-fc2fc16833bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.headerSearch_toggleForm > .headerSearch_spyglass",
+      "targets": [
+        ["css=.headerSearch_toggleForm > .headerSearch_spyglass", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de3703f-5fe8-4275-8184-6bbf29715459",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerSearch_toggleForm > .headerSearch_spyglass",
+      "targets": [
+        ["css=.headerSearch_toggleForm > .headerSearch_spyglass", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4031e425-2f2e-4786-a829-63e5fa3a1e1b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.headerSearch_toggleForm > .headerSearch_spyglass",
+      "targets": [
+        ["css=.headerSearch_toggleForm > .headerSearch_spyglass", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6015f8eb-18d6-495b-8146-de92951910fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-input",
+      "targets": [
+        ["id=header-search-input", "id"],
+        ["name=search", "name"],
+        ["css=#header-search-input", "css:finder"],
+        ["xpath=//input[@id='header-search-input']", "xpath:attributes"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5ff652-ae5d-4342-92d7-de0ded2f3438",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search-input",
+      "targets": [
+        ["id=header-search-input", "id"],
+        ["name=search", "name"],
+        ["css=#header-search-input", "css:finder"],
+        ["xpath=//input[@id='header-search-input']", "xpath:attributes"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "protein"
+    }, {
+      "id": "2ff06caf-f45f-431b-aeca-53ee49544ae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerSearch_button",
+      "targets": [
+        ["css=.headerSearch_button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/form/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e08503f7-dc7a-400d-a233-c38233bfafa1",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='productListProducts_product ']",
+      "targets": [],
+      "value": "elOnPage"
+    }, {
+      "id": "12b33da1-5bd7-4007-b182-1e7e83c802a1",
+      "comment": "",
+      "command": "echo",
+      "target": "${elOnPage}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "156cd69b-ea43-4495-b127-628265bf6682",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${elOnPage}>0",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "2b5799a8-455b-4580-a506-e6bbd89142eb",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "af658217-a888-464e-a479-d50cb022db51",
+    "name": "InvalidSearch",
+    "commands": [{
+      "id": "1954ec6b-7ddd-4b41-aa1b-b6ee447dd5a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8bc827-f76a-4761-b586-abe0ac785359",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "836x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a73efd6-4e0f-4bc7-9a64-c554b24b04b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.headerSearch_toggleForm",
+      "targets": [
+        ["css=.headerSearch_toggleForm", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddfc4b91-8bbe-446b-b3d8-214b767e29d7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.headerSearch_toggleForm",
+      "targets": [
+        ["css=.headerSearch_toggleForm", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7086290f-79bd-492e-bcd0-78b8696925f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerSearch_toggleForm .headerSearch_spyglass_fillContainer",
+      "targets": [
+        ["css=.headerSearch_toggleForm .headerSearch_spyglass_fillContainer", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f62a15e-9631-4b92-8907-286b7a3a0cb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search-input",
+      "targets": [
+        ["id=header-search-input", "id"],
+        ["name=search", "name"],
+        ["css=#header-search-input", "css:finder"],
+        ["xpath=//input[@id='header-search-input']", "xpath:attributes"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac2b455-1015-46e5-904b-b7f80d34b4e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search-input",
+      "targets": [
+        ["id=header-search-input", "id"],
+        ["name=search", "name"],
+        ["css=#header-search-input", "css:finder"],
+        ["xpath=//input[@id='header-search-input']", "xpath:attributes"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "NAKUDE DUSHATA MI DA BQGA"
+    }, {
+      "id": "92a4f112-ec06-441b-983c-bcd2fea3aca7",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.headerSearch_button > .headerSearch_spyglass",
+      "targets": [
+        ["css=.headerSearch_button > .headerSearch_spyglass", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d98322-1068-450d-88a4-eaa1ed2d3e1e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.headerSearch_button .headerSearch_spyglass_fillContainer",
+      "targets": [
+        ["css=.headerSearch_button .headerSearch_spyglass_fillContainer", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc153e1-3acb-42e8-9817-a54c00f1c66f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headerSearch_button > .headerSearch_spyglass",
+      "targets": [
+        ["css=.headerSearch_button > .headerSearch_spyglass", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4ca02f4-1541-4541-9c7e-576c404d04eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.stripBanner_text",
+      "targets": [
+        ["css=.stripBanner_text", "css:finder"],
+        ["xpath=(//a[contains(@href, '/nutrition/bestsellers-bg-bg.list')])[2]", "xpath:href"],
+        ["xpath=//body/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4458a8d7-f7f5-4d48-be35-ea7e28ac9ee3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.stripBanner_text",
+      "targets": [
+        ["css=.stripBanner_text", "css:finder"],
+        ["xpath=(//a[contains(@href, '/nutrition/bestsellers-bg-bg.list')])[2]", "xpath:href"],
+        ["xpath=//body/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "67b443c4-8169-4a97-a8b5-4c1241535596",
+    "name": "ValidLogin",
+    "commands": [{
+      "id": "138fe249-e419-469d-8193-b9ac04a63c7a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f7a7012-b324-433a-9b8f-40e3b495d6e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon",
+      "targets": [
+        ["css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "397f3c0b-3886-4661-9ecc-fc1e0b495366",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveAccountHeader_accountLogin",
+      "targets": [
+        ["css=.responsiveAccountHeader_accountLogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Вход')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[4]/div/div/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/accountHome.account')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfcff0e4-5b28-4d23-875d-439c0250215e",
+      "comment": "",
+      "command": "click",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-2dde8e70-9a64-4d05-826a-96eabd24ba16", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-2dde8e70-9a64-4d05-826a-96eabd24ba16", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-2dde8e70-9a64-4d05-826a-96eabd24ba16']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a92598-1094-499e-98ee-a32a02f0db3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-d883392a-5471-4e62-be30-f8d7e91887de", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-d883392a-5471-4e62-be30-f8d7e91887de", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-d883392a-5471-4e62-be30-f8d7e91887de']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "rbg54776@zslsz.com"
+    }, {
+      "id": "43570554-2e09-486f-80c8-adc0957e0659",
+      "comment": "",
+      "command": "click",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-2c87f083-fe0a-4d84-a92a-647138b07e26", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-2c87f083-fe0a-4d84-a92a-647138b07e26", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-2c87f083-fe0a-4d84-a92a-647138b07e26']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccfeff37-71c1-449d-960c-9633bf123fd3",
+      "comment": "",
+      "command": "type",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-53d7277e-8b1c-4ba6-b23f-9166af190814", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-53d7277e-8b1c-4ba6-b23f-9166af190814", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-53d7277e-8b1c-4ba6-b23f-9166af190814']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "testing123"
+    }, {
+      "id": "694044db-0090-4bca-bdc4-b34c4fb75cdd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["css=.ioWJtn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/div/div/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Влезнете в профила си')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e9f2c410-6519-437b-a057-791b5111250b",
+    "name": "Add to Favorites",
+    "commands": [{
+      "id": "60e74f4a-c427-4f94-bbc2-03d1cfad95dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb63d601-ef7e-40c4-8f33-9ba43cfdd2fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cddadd61-6e63-4779-9a8b-51eb43394c1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Списък с желания",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7a252a5-606b-4ca8-b249-c107effd9e82",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2.6666667461395264)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f90f0f9-d193-454e-b645-9f8d222aafdc",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//div[@class='wishlistProduct']",
+      "targets": [],
+      "value": "elCount"
+    }, {
+      "id": "5c0e9a63-f858-40a7-bca8-2391a8f905ee",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "0ece3d4c-338d-4699-9893-7e78c1df37c2",
+      "comment": "",
+      "command": "while",
+      "target": "${index}<=${elCount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ce489ca-d4a3-4f7f-be96-f318141ded51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productAddToWishlist_deleteIcon > .productAddToWishlist_cross",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9520cfd1-11e3-4e10-ac8d-720c456c79f8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index} + 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "537e5158-a175-4be0-ad7a-4e73ac5893fc",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7e3c966-4cc9-437a-b325-8a79728abebd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b975a647-2bea-426e-ae7f-c25f0e4a8aa2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30dfc11b-e5c1-462b-aadd-674d7f595dda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки Начална страница",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6d14c57-07b6-44c7-b2cf-a36a7ea7cb12",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,520)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df350209-967a-4c4e-a7ba-30c3f633b7da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sectionPeek_item:nth-child(1) .athenaProductBlock_image",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65c05d6f-9336-4879-941b-9059a4b76f22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.3333333730697632)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25c2127e-8bf4-43d9-855f-83e6f343c971",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heartPath",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97817743-8cb4-4c8b-8267-83ee018abd41",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb0f75e-aa04-4217-bf64-e1e994fcc2b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Списък с желания",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11358252-281b-4a38-99f2-dd2c8c9d85d7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.wishlistProducts",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "89151f65-25a4-4f45-9f6b-857a7e193990",
+    "name": "Add to Cart",
+    "commands": [{
+      "id": "0e8ab49a-f0f8-4fca-807c-f93c222e85cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f527f13-1f95-41f0-99f0-3644ade428b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34787818-c692-419f-84c2-c29c89f2db7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.responsiveFlyoutMenu_menuButton",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_menuButton", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb42a8c7-a931-4453-9314-2291def9647a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.responsiveFlyoutMenu_menuButton",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_menuButton", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095e0a5a-c424-462f-af59-85535a189e4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_burgerMenu", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eaac9d0-24dc-4d1b-b2de-a7ef1556f2a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки",
+      "targets": [
+        ["linkText=Хранителни добавки", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Хранителни добавки')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/nutrition.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Хранителни добавки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66798437-617e-4d4c-a9e8-91cd5f63c570",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Хранителни добавки Начална страница",
+      "targets": [
+        ["linkText=Хранителни добавки Начална страница", "linkText"],
+        ["css=.responsiveFlyoutMenu_mobilePanel_levelTwo .responsiveFlyoutMenu_levelTwoLandingPageLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Хранителни добавки Начална страница')])[2]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.myprotein.bg/nutrition.list')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db033c63-5ee3-42aa-a99b-2bfee52ab238",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sectionPeek_item:nth-child(3) .athenaProductBlock_image",
+      "targets": [
+        ["css=.sectionPeek_item:nth-child(3) .athenaProductBlock_image", "css:finder"],
+        ["xpath=//img[@alt='6 Layer Protein Bar']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[3]/div/ul/li[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8a1c6d-5557-4d3f-b931-ffb1d966dc64",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.stripBanner_text",
+      "targets": [
+        ["css=.stripBanner_text", "css:finder"],
+        ["xpath=//body[@id='sports']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nutrition/bestsellers-bg-bg.list')])[2]", "xpath:href"],
+        ["xpath=//body/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9daf04dd-451c-4ae5-af4d-f68533f89383",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.stripBanner_text",
+      "targets": [
+        ["css=.stripBanner_text", "css:finder"],
+        ["xpath=//body[@id='sports']/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nutrition/bestsellers-bg-bg.list')])[2]", "xpath:href"],
+        ["xpath=//body/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a372bb-9633-4800-9876-8d68f397c9de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,205.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e4b4314-46e1-4f40-a952-e8c494609ca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket",
+      "targets": [
+        ["css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[2]/div/div[4]/div[2]/div[2]/span/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3f5fe2-0a36-47bd-a351-575d12bce878",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05daa2af-f8b4-42d8-96be-7d6a876a48cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addedToBasket_continueShoppingButton",
+      "targets": [
+        ["css=.addedToBasket_continueShoppingButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div/div[5]/div[2]/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63348eac-f0b9-42f8-ad8b-fd0d6ab6e1c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveFlyoutBasket_openBasketButtonMobile > .responsiveFlyoutBasket_icon-basket > path",
+      "targets": [
+        ["css=#responsiveFlyoutBasket_openBasketButtonMobile > .responsiveFlyoutBasket_icon-basket > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2cd3730-faf5-4d11-9582-551dc68602b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutBasket_viewBasketLink",
+      "targets": [
+        ["css=.responsiveFlyoutBasket_viewBasketLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Вижте кошницата си')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/my.basket')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6f37502d-ad4b-4189-a0b3-ac71e3b8eb00",
+    "name": "Remove from Favorites",
+    "commands": [{
+      "id": "0411e492-ecb9-42a8-b85b-95ac9f37357a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e8da978-c00d-40b3-bd48-60200bea906f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_menuButton",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_menuButton", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa5a3d8-6f41-4460-8897-24faa2e27f16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини",
+      "targets": [
+        ["linkText=Протеини", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Протеини')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Протеини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d344da5-ff8b-4c14-a857-a1880196a0a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини Начална страница",
+      "targets": [
+        ["linkText=Протеини Начална страница", "linkText"],
+        ["css=.responsiveFlyoutMenu_mobilePanel_levelTwo .responsiveFlyoutMenu_levelTwoLandingPageLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Протеини Начална страница')])[2]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab9b7278-bd76-4c53-ad22-9442298cb2e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84068c1a-7d86-4015-9b4b-5e7370e3172c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productListProducts_product:nth-child(2) .heartPath:nth-child(1)",
+      "targets": [
+        ["css=.productListProducts_product:nth-child(2) .heartPath:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fb6e934-c9da-4014-bd4f-302408927c0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path",
+      "targets": [
+        ["css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "83aa02da-732e-4722-af4a-b5c800839668",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Списък с желания",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfac9bbe-74e1-4b91-9112-206219ead68d",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//div[@class='wishlistProduct']",
+      "targets": [],
+      "value": "elCount"
+    }, {
+      "id": "749d54d9-79f7-4cf9-a894-b16ccf55cf7f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "9bc776d1-ae7b-4a54-b464-085d6b92db7d",
+      "comment": "",
+      "command": "while",
+      "target": "${index}<=${elCount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "728c8f11-bcf5-469c-b622-3e0f5cd2e8ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productAddToWishlist_deleteIcon > .productAddToWishlist_cross",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb445c39-b1d3-4b1a-9544-1092db35d4d0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index} + 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "6a8ad780-9ac5-4afc-80a1-34bf3410208c",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78b18b70-c247-4803-b2a6-8cc52a7d3809",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.productAddToWishlist_deleteIcon > .productAddToWishlist_cross",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7052418d-18ee-47d8-bbe4-d25162b85da7",
+    "name": "Remove from Cart",
+    "commands": [{
+      "id": "3001b1f9-4a45-4647-9d91-e8d06ca9b45a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed38093a-5fd6-4d62-b8d0-f089ebb7d023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_burgerMenu", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ad57e5f-8e85-40ce-accb-f3273a1cddf1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини",
+      "targets": [
+        ["linkText=Протеини", "linkText"],
+        ["css=.active > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Протеини')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Протеини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae14c990-f33d-4e9a-af8c-d75935fcb0e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини Начална страница",
+      "targets": [
+        ["linkText=Протеини Начална страница", "linkText"],
+        ["css=.responsiveFlyoutMenu_mobilePanel_levelTwo .responsiveFlyoutMenu_levelTwoLandingPageLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Протеини Начална страница')])[2]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b057b441-fef1-4af9-a23d-0f4686daf4a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productListProducts_product:nth-child(2) .athenaProductBlock_image",
+      "targets": [
+        ["css=.productListProducts_product:nth-child(2) .athenaProductBlock_image", "css:finder"],
+        ["xpath=//img[@alt='THE Whey']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[3]/ul/li[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7da1f1-d157-4c87-b7de-7e5983b1ecf3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,23.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f11174-fd83-4361-88ac-27b484ece520",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket",
+      "targets": [
+        ["css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[2]/div/div[4]/div[2]/div[2]/span/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c34da63-fb29-4d26-851c-d24572cb4a52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f6b95f6-24db-47ee-8228-cc40e9324d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaAddedToBasketModal_close",
+      "targets": [
+        ["css=.athenaAddedToBasketModal_close", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1931fec-ee2f-4bd8-9f9d-a13d0363f86e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveFlyoutBasket_openBasketButtonMobile > .responsiveFlyoutBasket_icon-basket",
+      "targets": [
+        ["css=#responsiveFlyoutBasket_openBasketButtonMobile > .responsiveFlyoutBasket_icon-basket", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf12863-52a0-4a5f-8ae3-eaced1e3053c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutBasket_viewBasketLink",
+      "targets": [
+        ["css=.responsiveFlyoutBasket_viewBasketLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Вижте кошницата си')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[5]/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/my.basket')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69a5851-11a4-40fb-84c8-a9c1f5e920d0",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//li[@class='athenaBasket_basketItemRow athenaBasket_basketItemRow_productDetails']",
+      "targets": [],
+      "value": "elCount"
+    }, {
+      "id": "6a09b9a9-9882-4197-96bf-3ef1bf301313",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "18715f63-f870-4811-baa5-5f615869e1cb",
+      "comment": "",
+      "command": "while",
+      "target": "${index}<=${elCount}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6819491e-161b-4ed1-b117-0043fc37ba8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaBasket_cross > path",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a99d026-8805-41e2-b612-08077662e1b2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index} + 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "a1398b35-e3f3-4727-9e0d-2e803e90f3e8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6092fed2-293f-409a-bbfa-45df2c41f9f1",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.athenaBasket_basketItemRow",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9cb32c00-9ecc-49af-8b2f-15052cc3cd8d",
+    "name": "Register with used Email",
+    "commands": [{
+      "id": "14dcce8d-b444-4e09-ab0a-d464abc4d85f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f4dc087-d668-425a-8c47-fa4e0930d1d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "482ea329-024d-4c43-945a-3f9c8e8e4c2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path",
+      "targets": [
+        ["css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0334eb4a-ade4-4803-9df5-ae9fb8747ca9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveAccountHeader_accountRegister",
+      "targets": [
+        ["css=.responsiveAccountHeader_accountRegister", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[4]/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/accountCreate.account')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feef473d-d1bf-459f-8c4b-eced826fd28c",
+      "comment": "",
+      "command": "click",
+      "target": "name=Име",
+      "targets": [
+        ["id=име-input-element-id-b3939185-af52-4112-ba0b-7b50585bf07e", "id"],
+        ["name=Име", "name"],
+        ["css=#\\438\\43C\\435-input-element-id-b3939185-af52-4112-ba0b-7b50585bf07e", "css:finder"],
+        ["xpath=//input[@id='име-input-element-id-b3939185-af52-4112-ba0b-7b50585bf07e']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30cde556-4bce-426c-9053-9df0898f0178",
+      "comment": "",
+      "command": "type",
+      "target": "name=Име",
+      "targets": [
+        ["id=име-input-element-id-093df6c6-f850-45da-b62f-5cc7f0b7bd19", "id"],
+        ["name=Име", "name"],
+        ["css=#\\438\\43C\\435-input-element-id-093df6c6-f850-45da-b62f-5cc7f0b7bd19", "css:finder"],
+        ["xpath=//input[@id='име-input-element-id-093df6c6-f850-45da-b62f-5cc7f0b7bd19']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "TestIme"
+    }, {
+      "id": "9e13f535-0b69-461d-8322-5fb223b252ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-b9c930d2-1d28-4f60-bad0-9481bbe08e6b", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-b9c930d2-1d28-4f60-bad0-9481bbe08e6b", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-b9c930d2-1d28-4f60-bad0-9481bbe08e6b']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "303cab2b-4005-421f-a564-eb068da2a42a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-393ea90a-2006-456f-a585-c709b46c271c", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-393ea90a-2006-456f-a585-c709b46c271c", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-393ea90a-2006-456f-a585-c709b46c271c']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "rbg54776@zslsz.com"
+    }, {
+      "id": "27be72e1-b6b2-40db-9808-a8c2f0d6097e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,416)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac1b018b-652f-48e5-a980-eb1aea6144e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Потвърждаване Адрес на ел. поща",
+      "targets": [
+        ["id=потвърждаване-адрес-на-ел-поща-input-element-id-0790fe3b-ecaa-4b23-8b4e-588a935beba5", "id"],
+        ["name=Потвърждаване Адрес на ел. поща", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-0790fe3b-ecaa-4b23-8b4e-588a935beba5", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-адрес-на-ел-поща-input-element-id-0790fe3b-ecaa-4b23-8b4e-588a935beba5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83d86521-531e-4b3b-8080-fd097263c0cb",
+      "comment": "",
+      "command": "type",
+      "target": "name=Потвърждаване Адрес на ел. поща",
+      "targets": [
+        ["id=потвърждаване-адрес-на-ел-поща-input-element-id-750024c3-f811-41e9-82d3-8574f2fec8cc", "id"],
+        ["name=Потвърждаване Адрес на ел. поща", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-750024c3-f811-41e9-82d3-8574f2fec8cc", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-адрес-на-ел-поща-input-element-id-750024c3-f811-41e9-82d3-8574f2fec8cc']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "rbg54776@zslsz.com"
+    }, {
+      "id": "4a11eb68-b53a-4fa4-b11a-eadbf23b656b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-bf94dbde-806b-4479-97e9-acc0ddfea9c2", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-bf94dbde-806b-4479-97e9-acc0ddfea9c2", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-bf94dbde-806b-4479-97e9-acc0ddfea9c2']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "853ec481-fb2d-4189-88ff-a7f5a807cb8e",
+      "comment": "",
+      "command": "type",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-08174a4a-145a-49fe-9e62-8cede0415c08", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-08174a4a-145a-49fe-9e62-8cede0415c08", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-08174a4a-145a-49fe-9e62-8cede0415c08']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "testpassword"
+    }, {
+      "id": "f70d0fb6-ec7c-477d-b994-3dbfb51fa04c",
+      "comment": "",
+      "command": "click",
+      "target": "name=Потвърждаване Парола",
+      "targets": [
+        ["id=потвърждаване-парола-input-element-id-34eb866f-f902-46c2-9153-1c3fcd8b6f6d", "id"],
+        ["name=Потвърждаване Парола", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\43F\\430\\440\\43E\\43B\\430-input-element-id-34eb866f-f902-46c2-9153-1c3fcd8b6f6d", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-парола-input-element-id-34eb866f-f902-46c2-9153-1c3fcd8b6f6d']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21653ede-b542-47db-b6e9-9c79ee9c6abb",
+      "comment": "",
+      "command": "type",
+      "target": "name=Потвърждаване Парола",
+      "targets": [
+        ["id=потвърждаване-парола-input-element-id-39f3c380-be8c-4276-bd8f-bfdd0e6bc7cc", "id"],
+        ["name=Потвърждаване Парола", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\43F\\430\\440\\43E\\43B\\430-input-element-id-39f3c380-be8c-4276-bd8f-bfdd0e6bc7cc", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-парола-input-element-id-39f3c380-be8c-4276-bd8f-bfdd0e6bc7cc']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "testpassword"
+    }, {
+      "id": "63fd0133-a30c-465f-9c2d-8f3d6941348e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cWAxUP:nth-child(2) .sc-bJsHXV",
+      "targets": [
+        ["css=.sc-cWAxUP:nth-child(2) .sc-bJsHXV", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[6]/div/div[3]/div/div/div/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Не, благодаря.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "942f5076-30d7-4655-80a6-9c0959c841ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jfmDQi",
+      "targets": [
+        ["css=.sc-jfmDQi", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[7]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продължаване')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d686605-af12-462c-9c9c-40111f2f20af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,344)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "178b4f65-d275-4c08-b106-5d404dd381f8",
+      "comment": "Нещо се обърка. Моля, опитайте по-късно.",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//div[@type='error']",
+      "targets": [],
+      "value": "Нещо се обърка. Моля, опитайте по-късно."
+    }]
+  }, {
+    "id": "872061d9-281c-4013-a8a5-fd881cf7e24a",
+    "name": "Register with bad password",
+    "commands": [{
+      "id": "cd5d52e5-ecb2-482c-afa7-12de1d4ea531",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26e0a336-2846-40b8-a862-da80ba996489",
+      "comment": "",
+      "command": "click",
+      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path",
+      "targets": [
+        ["css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "638f5e2a-5cbd-4f40-8dc8-5eaece5fc424",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveAccountHeader_accountRegister",
+      "targets": [
+        ["css=.responsiveAccountHeader_accountRegister", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[4]/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/accountCreate.account')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d12789a-946d-41e9-9a6d-38cde50e360b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Име",
+      "targets": [
+        ["id=име-input-element-id-a6973880-4d0e-490d-95df-d9ad517fb7b3", "id"],
+        ["name=Име", "name"],
+        ["css=#\\438\\43C\\435-input-element-id-a6973880-4d0e-490d-95df-d9ad517fb7b3", "css:finder"],
+        ["xpath=//input[@id='име-input-element-id-a6973880-4d0e-490d-95df-d9ad517fb7b3']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57645f56-a034-4e7c-b170-35d4bb71eb9f",
+      "comment": "",
+      "command": "type",
+      "target": "name=Име",
+      "targets": [
+        ["id=име-input-element-id-b00aa5ad-dd97-4c3d-9740-3a1f7d1677c3", "id"],
+        ["name=Име", "name"],
+        ["css=#\\438\\43C\\435-input-element-id-b00aa5ad-dd97-4c3d-9740-3a1f7d1677c3", "css:finder"],
+        ["xpath=//input[@id='име-input-element-id-b00aa5ad-dd97-4c3d-9740-3a1f7d1677c3']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "tESTime"
+    }, {
+      "id": "f972eca6-5094-47f1-a197-03920794f2f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-915b155d-a1f5-49d1-8a62-6cbe60889854", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-915b155d-a1f5-49d1-8a62-6cbe60889854", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-915b155d-a1f5-49d1-8a62-6cbe60889854']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79d5a748-5013-4346-bc57-f64c8074e092",
+      "comment": "",
+      "command": "type",
+      "target": "name=Адрес на ел. поща",
+      "targets": [
+        ["id=адрес-на-ел-поща-input-element-id-962a60b0-54e2-4461-a003-996893633f2b", "id"],
+        ["name=Адрес на ел. поща", "name"],
+        ["css=#\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-962a60b0-54e2-4461-a003-996893633f2b", "css:finder"],
+        ["xpath=//input[@id='адрес-на-ел-поща-input-element-id-962a60b0-54e2-4461-a003-996893633f2b']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "validmail@abv.bg"
+    }, {
+      "id": "b828215c-1606-4d72-9199-ac457f1e09e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Потвърждаване Адрес на ел. поща",
+      "targets": [
+        ["id=потвърждаване-адрес-на-ел-поща-input-element-id-7aec5c77-fb2b-4927-8328-e8af407db42b", "id"],
+        ["name=Потвърждаване Адрес на ел. поща", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-7aec5c77-fb2b-4927-8328-e8af407db42b", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-адрес-на-ел-поща-input-element-id-7aec5c77-fb2b-4927-8328-e8af407db42b']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11877d2c-6d5f-413f-809a-1281180dabc4",
+      "comment": "",
+      "command": "type",
+      "target": "name=Потвърждаване Адрес на ел. поща",
+      "targets": [
+        ["id=потвърждаване-адрес-на-ел-поща-input-element-id-f48cecdb-0916-40d9-bd32-8ede8fa2f0eb", "id"],
+        ["name=Потвърждаване Адрес на ел. поща", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\430\\434\\440\\435\\441-\\43D\\430-\\435\\43B-\\43F\\43E\\449\\430-input-element-id-f48cecdb-0916-40d9-bd32-8ede8fa2f0eb", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-адрес-на-ел-поща-input-element-id-f48cecdb-0916-40d9-bd32-8ede8fa2f0eb']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "validmail@abv.bg"
+    }, {
+      "id": "f7eccfe2-eeb3-4236-96b5-f1af76d42db6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-e084af25-11d5-4baf-b5b8-f8dd59ce58f7", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-e084af25-11d5-4baf-b5b8-f8dd59ce58f7", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-e084af25-11d5-4baf-b5b8-f8dd59ce58f7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50fb5d3f-41ef-4e8f-95e0-ec4b26668ff6",
+      "comment": "",
+      "command": "type",
+      "target": "name=Парола",
+      "targets": [
+        ["id=парола-input-element-id-7a0423b2-7719-4258-80be-050fe9b0bee9", "id"],
+        ["name=Парола", "name"],
+        ["css=#\\43F\\430\\440\\43E\\43B\\430-input-element-id-7a0423b2-7719-4258-80be-050fe9b0bee9", "css:finder"],
+        ["xpath=//input[@id='парола-input-element-id-7a0423b2-7719-4258-80be-050fe9b0bee9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "bad"
+    }, {
+      "id": "0df54489-47ad-4863-a2b3-7f04a4736f56",
+      "comment": "",
+      "command": "click",
+      "target": "name=Потвърждаване Парола",
+      "targets": [
+        ["id=потвърждаване-парола-input-element-id-542b6593-aaf3-4ea5-9ee1-652ce38a02e3", "id"],
+        ["name=Потвърждаване Парола", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\43F\\430\\440\\43E\\43B\\430-input-element-id-542b6593-aaf3-4ea5-9ee1-652ce38a02e3", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-парола-input-element-id-542b6593-aaf3-4ea5-9ee1-652ce38a02e3']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5c7d415-c8ea-4677-9c44-81421db861c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=Потвърждаване Парола",
+      "targets": [
+        ["id=потвърждаване-парола-input-element-id-20523c57-fa67-413c-ac13-4da3f8300f6b", "id"],
+        ["name=Потвърждаване Парола", "name"],
+        ["css=#\\43F\\43E\\442\\432\\44A\\440\\436\\434\\430\\432\\430\\43D\\435-\\43F\\430\\440\\43E\\43B\\430-input-element-id-20523c57-fa67-413c-ac13-4da3f8300f6b", "css:finder"],
+        ["xpath=//input[@id='потвърждаване-парола-input-element-id-20523c57-fa67-413c-ac13-4da3f8300f6b']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bad"
+    }, {
+      "id": "81f4b7e8-bd19-4f5d-b7d7-094af7a33327",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cWAxUP:nth-child(2) .sc-bJsHXV",
+      "targets": [
+        ["css=.sc-cWAxUP:nth-child(2) .sc-bJsHXV", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[6]/div/div[3]/div/div/div/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Не, благодаря.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a6f124-1716-4bbc-91da-861d9edfd08f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-jfmDQi",
+      "targets": [
+        ["css=.sc-jfmDQi", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[7]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продължаване')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5566b132-8504-4ca6-a8c0-b7c7e7924d84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ddkEoM",
+      "targets": [
+        ["css=.sc-ddkEoM", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c284967f-f7ea-4c27-a219-7a787d53065b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hAsxaJ",
+      "targets": [
+        ["css=.sc-hAsxaJ", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c9f82e-8420-41f2-9c61-33987af9ccb0",
+      "comment": "Парола трябва да бъде най-малко 6 символа",
+      "command": "assertElementNotPresent",
+      "target": "css=.sc-fctJkW",
+      "targets": [],
+      "value": "Парола трябва да бъде най-малко 6 символа"
+    }]
+  }, {
+    "id": "29f28967-a825-4c49-a615-3137311355a7",
+    "name": "Change country",
+    "commands": [{
+      "id": "2988b076-6f39-4106-88ed-1915b7b68a06",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83924ce5-4291-48d3-ba42-fee07a1e73f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "913x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d93bb7ec-d259-422b-91c6-73c3aa271bab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_burgerMenu", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f66eda0b-5830-477e-b4d5-74f14bc7e883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveSubMenu_list .responsiveSubMenu_sessionSettingsChange",
+      "targets": [
+        ["css=.responsiveSubMenu_list .responsiveSubMenu_sessionSettingsChange", "css:finder"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/ul/li[9]/div/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/div/div/div/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1141aba1-ff5f-48f2-8962-5ac623eaa012",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sessionSettings_shippingCountrySelect",
+      "targets": [
+        ["css=.sessionSettings_shippingCountrySelect", "css:finder"],
+        ["xpath=//div[@id='popup']/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd72486e-fca3-4094-bb91-be2716ebeba5",
+      "comment": "",
+      "command": "select",
+      "target": "css=.sessionSettings_shippingCountrySelect",
+      "targets": [],
+      "value": "label=Argentina"
+    }, {
+      "id": "70eb86bb-20e8-4b1d-aaaf-ab70b76ca678",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(5)",
+      "targets": [
+        ["css=option:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='popup']/div/div/div/div/select/option[5]", "xpath:idRelative"],
+        ["xpath=//option[5]", "xpath:position"],
+        ["xpath=//option[contains(.,'Argentina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51914497-90b5-4ffb-8ea6-8846cd9aaab8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sessionSettings_saveButton",
+      "targets": [
+        ["css=.sessionSettings_saveButton", "css:finder"],
+        ["xpath=//div[@id='popup']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c6bb8d9b-6b0c-45a7-825e-f17632a6c0de",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.myprotein.bg/", "https://www.myprotein.bg/accountCreate.account", "https://www.myprotein.bg/login.jsp?returnTo=https%3A%2F%2Fwww.myprotein.bg%2FaccountHome.account"],
+  "plugins": []
+}
