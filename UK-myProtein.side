@@ -2183,6 +2183,218 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "1c0a38ef-0caf-4982-ae52-bead167d84e1",
+    "name": " Purchase test",
+    "commands": [{
+      "id": "e0afc7a7-146a-48e9-825d-8ab9a5456c01",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.myprotein.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74ae4975-e850-4806-8450-eb23794eb3d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "914x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c30cb760-4a77-442b-a817-5c44cbeeabd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu > path",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_burgerMenu > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef1a18e-ba1b-4bbb-8499-0e4ff34bceda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.responsiveFlyoutMenu_burgerMenu > path",
+      "targets": [
+        ["css=.responsiveFlyoutMenu_burgerMenu > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2084b68f-2e12-42bc-abc9-0174d70ef4f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини",
+      "targets": [
+        ["linkText=Протеини", "linkText"],
+        ["css=.responsiveFlyoutMenu_levelOneItem-slide:nth-child(1) > .responsiveFlyoutMenu_levelOneLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Протеини')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')]", "xpath:href"],
+        ["xpath=//nav/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Протеини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3bbd52e-aac1-4641-a529-519a8bef2606",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Протеини Начална страница",
+      "targets": [
+        ["linkText=Протеини Начална страница", "linkText"],
+        ["css=.responsiveFlyoutMenu_mobilePanel_levelTwo .responsiveFlyoutMenu_levelTwoLandingPageLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Протеини Начална страница')])[2]", "xpath:link"],
+        ["xpath=//header[@id='nav']/div[2]/div[2]/div[6]/nav/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.myprotein.bg/nutrition/protein.list')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f52e28-013b-4fbd-b8a5-ce21bc54e097",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,132.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b964173-85cf-4d9f-954c-f2017a1ca48d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productListProducts_product:nth-child(2) .athenaProductBlock_image",
+      "targets": [
+        ["css=.productListProducts_product:nth-child(2) .athenaProductBlock_image", "css:finder"],
+        ["xpath=//img[@alt='THE Whey']", "xpath:img"],
+        ["xpath=//main[@id='mainContent']/div[3]/ul/li[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76065ef0-5c28-409f-bd3f-2f5775d4b80e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket",
+      "targets": [
+        ["css=.athenaProductPage_productAddToBasket:nth-child(2) .productAddToBasket", "css:finder"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[2]/div/div[4]/div[2]/div[2]/span/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d7fca00-6b55-41d5-aad9-7cfc80d305dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaAddedToBasketModal_viewBasketButton",
+      "targets": [
+        ["css=.athenaAddedToBasketModal_viewBasketButton", "css:finder"],
+        ["xpath=//a[contains(text(),'Към касата')]", "xpath:link"],
+        ["xpath=//main[@id='mainContent']/div/div/div[5]/div[2]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/my.basket')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "406c382a-911e-45ab-b798-bed570656355",
+      "comment": "",
+      "command": "click",
+      "target": "id=mainContent",
+      "targets": [
+        ["id=mainContent", "id"],
+        ["css=#mainContent", "css:finder"],
+        ["xpath=//main[@id='mainContent']", "xpath:attributes"],
+        ["xpath=//body[@id='checkout']/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4837b56b-5244-434d-aaae-387f94ab230c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.athenaBasket_basketButtons_flexItem-checkoutSecurely .athenaBasket_basketButton",
+      "targets": [
+        ["css=.athenaBasket_basketButtons_flexItem-checkoutSecurely .athenaBasket_basketButton", "css:finder"],
+        ["xpath=(//button[@type='submit'])[6]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div[3]/div[2]/div/div[3]/div/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//div[3]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704a0c2d-0f9b-40e0-98dc-fa3544d83092",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "845,2212"
+    }, {
+      "id": "0cba43dd-a79f-4db5-9d0b-64d5330c2d07",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "845,2212"
+    }, {
+      "id": "9c581b7d-acff-4933-929d-b17173932f38",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "845,2212"
+    }, {
+      "id": "c3979f1b-9d5d-40a9-b83a-14a3f88c1444",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"OrderSummary__summary\"]",
+      "targets": [
+        ["css=*[data-test=\"OrderSummary__summary\"]", "css:data-attr"],
+        ["css=.summary-0-3-300", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/form/div/div/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a13b97d-a1d8-436e-901a-137f09c42349",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=SubmitButton",
+      "targets": [
+        ["id=SubmitButton", "id"],
+        ["css=#SubmitButton", "css:finder"],
+        ["xpath=//button[@id='SubmitButton']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/form/div/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15dc496f-df68-4388-9362-2317e46fc531",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#SubmitButton > .Button--focus",
+      "targets": [
+        ["css=#SubmitButton > .Button--focus", "css:finder"],
+        ["xpath=//button[@id='SubmitButton']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05396621-2c01-44ac-938e-afe28b83f217",
+      "comment": "",
+      "command": "click",
+      "target": "id=SubmitButton",
+      "targets": [
+        ["id=SubmitButton", "id"],
+        ["css=#SubmitButton", "css:finder"],
+        ["xpath=//button[@id='SubmitButton']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/form/div/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "c6bb8d9b-6b0c-45a7-825e-f17632a6c0de",
