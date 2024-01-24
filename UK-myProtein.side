@@ -1658,37 +1658,8 @@
       "id": "14dcce8d-b444-4e09-ab0a-d464abc4d85f",
       "comment": "",
       "command": "open",
-      "target": "https://www.myprotein.bg/",
+      "target": "https://www.myprotein.bg/accountCreate.account",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "9f4dc087-d668-425a-8c47-fa4e0930d1d7",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "913x672",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "482ea329-024d-4c43-945a-3f9c8e8e4c2e",
-      "comment": "",
-      "command": "click",
-      "target": "css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path",
-      "targets": [
-        ["css=#responsiveAccountHeader_openAccountButtonMobile_rightSection > .responsiveAccountHeader_accountIcon > path", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "0334eb4a-ade4-4803-9df5-ae9fb8747ca9",
-      "comment": "",
-      "command": "click",
-      "target": "css=.responsiveAccountHeader_accountRegister",
-      "targets": [
-        ["css=.responsiveAccountHeader_accountRegister", "css:finder"],
-        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
-        ["xpath=//header[@id='nav']/div[2]/div[2]/div[4]/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://www.myprotein.bg/accountCreate.account')]", "xpath:href"],
-        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "feef473d-d1bf-459f-8c4b-eced826fd28c",
@@ -2065,7 +2036,7 @@
       "id": "c1a6f124-1716-4bbc-91da-861d9edfd08f",
       "comment": "",
       "command": "click",
-      "target": "css=.sc-jfmDQi",
+      "target": "xpath=//button[@type='submit']",
       "targets": [
         ["css=.sc-jfmDQi", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
@@ -2078,7 +2049,7 @@
       "id": "5566b132-8504-4ca6-a8c0-b7c7e7924d84",
       "comment": "",
       "command": "click",
-      "target": "css=.sc-ddkEoM",
+      "target": "xpath=//main[@id='main-content']/div/div/section",
       "targets": [
         ["css=.sc-ddkEoM", "css:finder"],
         ["xpath=//main[@id='main-content']/div/div/section", "xpath:idRelative"],
@@ -2089,7 +2060,7 @@
       "id": "c284967f-f7ea-4c27-a219-7a787d53065b",
       "comment": "",
       "command": "click",
-      "target": "css=.sc-hAsxaJ",
+      "target": "xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div[3]",
       "targets": [
         ["css=.sc-hAsxaJ", "css:finder"],
         ["xpath=//main[@id='main-content']/div/div/section/div/form/div[4]/div/div[3]", "xpath:idRelative"],
